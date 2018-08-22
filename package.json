@@ -1,0 +1,29 @@
+{
+	"name": "Ace-coop",
+	"version": "1.3.0",
+	"description": "new project by k.tuz",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "k.tuz",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "*",
+		"del": "*",
+		"gulp": "*",
+		"gulp-autoprefixer": "*",
+		"gulp-cache": "*",
+		"gulp-concat": "*",
+		"gulp-cssnano": "*",
+		"gulp-html-partial": "*",
+		"gulp-imagemin": "*",
+		"gulp-rename": "*",
+		"gulp-sass": "*",
+		"gulp-sourcemaps": "*",
+		"gulp-uglifyjs": "*",
+		"imagemin-pngquant": "*",
+		"gulp-wait": "*"
+	},
+	"dependencies": {}
+}

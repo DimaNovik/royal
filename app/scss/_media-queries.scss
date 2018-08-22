@@ -1,0 +1,56 @@
+/*================= *media-queries =================*/
+
+@media screen and (max-width: 768px) {
+	.product {
+		&__header_item {
+			background-image: none !important;
+			background-size: 0;
+			background-color: #f3f3f3;
+			height: 46px;
+			&:after,
+			&:before {
+				display: none;
+			}
+			.overflow {
+				font-size: 14px;
+				color: #b5b5b5;
+				background-color: #f3f3f3;
+			}
+		}
+		&__content {
+			flex-wrap: wrap;
+		}
+		&__filter {
+			display: none;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			background-color: #fff;
+			margin-right: 0;
+			z-index: 15;
+			&--title {
+				display: block;
+			}
+		}
+		&__list {
+			justify-content: space-between;
+			.item {
+				margin-right: 0;
+				&:nth-child(3n) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.product {
+		&__list {
+			justify-content: center;
+		}
+	}
+}
+
+/*================= END *media-queries =================*/
